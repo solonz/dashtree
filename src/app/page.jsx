@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const links = [
@@ -37,10 +38,11 @@ const Home = () => {
         </div>
       ))}
       <div className="mt-12">
-        <img
+        <Image
           src="/banner-welcome-p2p.png"
           alt="Welcome to Dash P2P"
-          width="800px"
+          width="100%"
+          height="auto"
           className="h-auto max-w-full"
         />
       </div>
