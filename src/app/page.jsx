@@ -28,7 +28,7 @@ const Home = () => {
         @dashskinsp2p
       </h2>
       <h1 className="mt-7 font-semibold font-inter text-base px-3 py-1 text-center leading-relaxed mb-1 text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 rounded-md duration-300 ...">
-        Acesso ao BETA da DashSkins P2P...
+        Acesso ao BETA da DashSkins P2P
       </h1>
       {links.map((link, index) => (
         <div key={index} className="mb-5">
