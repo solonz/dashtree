@@ -6,7 +6,7 @@ const links = [
   { label: "🕹️ Dash P2P", href: "https://dashskins.gg" },
   {
     label: "📱 APP IOS",
-    href: "https://apps.apple.com/br/app/dashskins-compra-e-venda-skins/id6466506331?l=en-GB",
+    href: "https://apps.apple.com/br/app/dashskins-compra-e-venda-skins/id6466506331?l=pt-BR",
   },
   {
     label: "📱 APP Android",
@@ -22,7 +22,7 @@ const Home = () => {
         src="/dash-icon.jpg"
         alt="dash-icon"
         width="200px"
-        className="rounded-full mt-8"
+        className="rounded-full mt-6"
       />
       <h2 className="font-inter mt-4 text-white text-center font-bold text-xl">
         @dashskinsp2p
@@ -37,13 +37,12 @@ const Home = () => {
           </a>
         </div>
       ))}
-      <div className="mt-12">
+      <div className="mt-8">
         <Image
           src="/banner-welcome-p2p.png"
           alt="Welcome to Dash P2P"
-          width="100%"
-          height="auto"
-          className="h-auto max-w-full"
+          width="1600"
+          height="768"
         />
       </div>
     </div>
