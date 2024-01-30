@@ -40,8 +40,8 @@ body {
   text-decoration: none;
   border-radius: 6px;
   transition: background-color 0.3s ease; /* Efeito de transição na cor de fundo ao passar o mouse */
-  width: auto;
-  height: auto;
+  width: 310px;
+  height: 50px;
   white-space: nowrap; /* Impede que o texto quebre em várias linhas */
   overflow: hidden;
 }

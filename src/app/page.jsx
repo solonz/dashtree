@@ -32,8 +32,13 @@ const Home = () => {
       </h1>
       {links.map((link, index) => (
         <div key={index} className="mb-5">
-          <a className="btn" href={link.href} target="_blank" rel="noopener">
-            <span className="mx-auto text-center">{link.label}</span>
+          <a
+            className="btn sm:w-[620px]"
+            href={link.href}
+            target="_blank"
+            rel="noopener"
+          >
+            <span className="mx-auto">{link.label}</span>
           </a>
         </div>
       ))}
@@ -43,7 +48,6 @@ const Home = () => {
           alt="Welcome to Dash P2P"
           width="1600"
           height="768"
-          className="w-full h-auto"
         />
       </div>
     </div>
